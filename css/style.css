@@ -1,0 +1,36 @@
+/*RESET*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*SHARED*/
+html {
+    font-family: Helvetica;
+}
+:root {
+    --black: rgb(16, 16, 16);
+    --white: rgb(243, 243, 243);
+}
+.flex {
+    display: flex;
+}
+/*HEADER*/
+.header-nav {
+    background-color: green;
+    padding: 10px;
+    color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav li {
+    padding-left: 20px;
+    list-style: none;
+}
+.header-nav li a {
+    color: var(--black);
+    text-decoration: none;
+}
+.header-nav li a:hover {
+    color: var(--white);
+}
