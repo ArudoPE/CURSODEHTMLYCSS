@@ -82,7 +82,8 @@ html {
     font-size: 12px;
     margin: 10px 0 10px 0;
 }
-.content a {
+.content a,
+.content--form a {
     background-color: var(--green);
     padding: 10px 20px;
     width: 100%;
@@ -92,7 +93,8 @@ html {
     text-align: center;
     border-radius: 4px;
 }
-.content a:hover {
+.content a:hover,
+.content--form a:hover {
     background-color: rgb(102, 182, 27);
 }
 /*MAIN-BENEFITS--SECTION*/
@@ -155,12 +157,6 @@ html {
 .mention-pic4 {
     background-image: url('../img/face4.jpg');
 }
-
-/* .main-mentions--container .mentions--card img {
-    width: 100%;
-    height: 100px;
-} */
-
 /*FOOTER*/
 .footer--container {
     width: 100%;
@@ -173,4 +169,64 @@ html {
     color: var(--white);
     padding: 30px 20px 20px 20px;
     font-size: 12px;
+}
+/*PRODUCT PAGE*/
+/*MAIN*/
+.main-product-page {
+    min-height: calc(100vh - 115px);
+}
+.product-page--products {
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 25vh;
+    gap: 50px;
+}
+.product-page--products .content{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 8px 5px 18px -10px rgba(0,0,0,0.75);
+    border-radius: 8px;
+}
+.product-page--products .product {
+    padding: 10px;
+    min-width: 285px;
+    width: 300px;
+}
+/*FORM*/
+.content--form {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 8px 5px 18px -10px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    padding: 20px;
+}
+.product--form input{
+    border: 1px solid #313337;
+    border-radius: 1px;
+    padding: 5px;
+    width: 250px;
+}
+.product--form input::placeholder {
+    font-size: 12px;
+}
+.product--form label {
+    display: block;
+    margin-bottom: -10px;
+    color: var(--dark);
+    font-size: 12px;
+    font-weight: bold;
+}
+.product--pay-button {
+    margin-top: 30px;
+}
+.form--product {
+    position: relative;
+    top: 15px;
+}
+.form--product a {
+    margin-left: 4px;
 }
