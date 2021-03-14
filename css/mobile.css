@@ -10,6 +10,9 @@
     .product-page--products {
         top: 5vh;
     }
+    .product-page--footer {
+        margin-top: 60px;
+    }
 }
 @media (max-width: 400px) {
     .header-nav li {
