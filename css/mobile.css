@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+    .main-benefits--container {
+        justify-content: center;
+        gap: 30px;
+        margin: 0 0 20px 0;
+    }
+    .main-mentions--container {
+        margin: 0 10px 50px 10px;
+    }
+}
+@media (max-width: 400px) {
+    .header-nav li {
+        position: relative;
+        max-width: 500px;
+    }
+}
