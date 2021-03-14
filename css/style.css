@@ -230,3 +230,27 @@ html {
 .form--product a {
     margin-left: 4px;
 }
+/*PRODUCTO Y DESCRIPCION PAGE*/
+/*MAIN*/
+.producto-y-descripcion--container {
+    margin: 20px 10px;
+}
+.producto-y-descripcion--title-container {
+    margin: 50px 0;
+}
+.producto-y-descripcion--title-container h1 {
+    color: var(--dark);
+    font-weight: 900;
+    text-align: center;
+}
+.producto-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: var(--dark);
+}
+.producto-box p {
+    margin-top: 10px;
+    font-size: 12px;
+}
